@@ -10,12 +10,12 @@ Generate one R script called run_analysis.R that does the following.
 
 Merge Files
 ===========
-|X_train.txt          |7352 x 561     |Feature Measurements
-|X_test.txt           |2947 x 561     |Feature Measurements
-|Y_train.txt          |7352 x 1       |Activity
-|Y_test.txt           |2947 x 1       |Activity
-|subject_train.txt    |7352 x 1       |Subject ID
-|subject_test.txt     |2947 x 1       |Subject ID
+- X_train.txt   - 7352 x 561    - Feature Measurements
+- X_test.txt    - 2947 x 561    - Feature Measurements
+- Y_train.txt   - 7352 x 1      - Activity
+- Y_test.txt           |2947 x 1       |Activity
+- subject_train.txt    |7352 x 1       |Subject ID
+- subject_test.txt     |2947 x 1       |Subject ID
 
 
 Feature Selection  (see original features_info.txt file)
