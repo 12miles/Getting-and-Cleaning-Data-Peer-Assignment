@@ -19,6 +19,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 This repo includes the following:
-  README.md
-  run_analysis.R
-  codebook.md
+  *README.md
+  *run_analysis.R
+  *codebook.md
