@@ -47,10 +47,12 @@ activityNames <- activity[mergedData[,2], "V2"]       # activities are yBind
 mergedData[,2] <-activityNames 
 
 
-# Step Four - Appropriately labels the data set with descriptive variable names.
+# Step Four - Appropriately labels the data set with descriptive variable names (camelBack style).
 
 names(mergedData)[1] <- "Subject"
 names(mergedData)[2] <- "Activity"
+names(mergedData) <- gsub("^t", "Time", names(mergedData))
+names(mergedData) <- gsub("^f", "Frequency", names(mergedData))
 names(mergedData) <- gsub("-","",names(mergedData))
 names(mergedData) <- gsub("\\()", "", names(mergedData))
 names(mergedData) <- gsub("mean", "Mean", names(mergedData))
