@@ -2,11 +2,11 @@ Peer Assignment Codebook
 ================
 Generate one R script called run_analysis.R that does the following. 
 
-    Merges the training and the test sets to create one data set.
-    Extracts only the measurements on the mean and standard deviation for each measurement. 
-    Uses descriptive activity names to name the activities in the data set
-    Appropriately labels the data set with descriptive variable names. 
-    Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+Merges the training and the test sets to create one data set.
+Extracts only the measurements on the mean and standard deviation for each measurement. 
+Uses descriptive activity names to name the activities in the data set
+Appropriately labels the data set with descriptive variable names. 
+Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 Original Study Information
 ==============
@@ -71,13 +71,19 @@ fBodyGyroJerkMag.
 
 The set of variables that were estimated from these signals are (originally 561 features): 
 
+Extracts only the measurements on the mean and standard deviation for each measurement. 
 mean(): Mean value &
 std(): Standard deviation.
+
 (total of 66 features averaged of each variable for each activity and each subject)
 
-====================================================================================================
+Uses descriptive activity names to name the activities (originally assigned values 1-6) in the data set (walking, walkingupstairs, walkingdownstairs, sitting, standing, laying)
 
-1. Subject
+Appropriately labels the data set with descriptive variable names, such as TimeBodyAccMeanX instead of V2 or V3.
+
+
+
+Subject     Position #1
 
 ----------------------------------------------------------------------------------------------------
 
@@ -87,10 +93,7 @@ std(): Standard deviation.
             Min:   1.000
             Max:  30.000
 
-
-====================================================================================================
-
-2. Activity
+Activity    Position #2 
 
 ----------------------------------------------------------------------------------------------------
 
@@ -101,9 +104,7 @@ std(): Standard deviation.
                                         
         (unlab.vld.)   180   100.0 100.0
 
-====================================================================================================
-
-3. TimeBodyAccMeanX
+TimeBodyAccMeanX    Position #3
 
 ----------------------------------------------------------------------------------------------------
 
@@ -114,9 +115,7 @@ std(): Standard deviation.
             Max:   0.301
 
 
-====================================================================================================
-
-4. TiimeBodyAccMeanY
+TiimeBodyAccMeanY   Position #4
 
 ----------------------------------------------------------------------------------------------------
 
